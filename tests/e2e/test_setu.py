@@ -2,7 +2,7 @@
 
 
 import pytest
-from setu.api_helper.api_utils import SetuUtills
+from api_helper.api_utils import SetuUtills
 
 
 class TestSensorInstallviaUserData:
