@@ -13,8 +13,6 @@ RUN echo "ksaha:password" | chpasswd
 # Change to kiran user
 USER ksaha
 
-COPY --chown=ksaha ./setu/ /setu
-
 RUN mkdir -p /home/ksaha/.pip
 COPY ./setu/pip.conf /home/ksaha/.pip
 RUN pip install --user --upgrade pip
