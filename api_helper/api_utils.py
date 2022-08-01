@@ -3,7 +3,7 @@
 
 import logging
 
-from setu.api_helper.auth_user_session import UserSession
+from api_helper.auth_user_session import UserSession
 
 
 class SetuUtills:
