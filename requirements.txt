@@ -1,0 +1,8 @@
+allure-pytest
+pytest
+pytest-html
+pytest-xdist>=2.5.0
+pytest-xdist[psutil]
+python-dynamodb-lock
+pyyaml
+requests>=2.18.1
